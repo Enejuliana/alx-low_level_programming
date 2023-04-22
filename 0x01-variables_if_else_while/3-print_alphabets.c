@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * main - prints the alphabet in lowercase, and then in uppercase
+ * main - prints the alphabeth
  * Return: Always 0 (Success)
  */
 
-int maint(void)
+int main(void)
 
 {
 	char low;
@@ -18,7 +18,6 @@ int maint(void)
 	for (low = 'A'; low <= 'Z'; low++)
 	putchar(low);
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
-	
